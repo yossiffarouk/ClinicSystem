@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ClinicMangmentSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj": {}
+    "C:\\Users\\ALQasem\\OneDrive\\Desktop\\Clinic Project\\ClinicSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj": {}
   },
   "projects": {
-    "C:\\ClinicMangmentSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj": {
+    "C:\\Users\\ALQasem\\OneDrive\\Desktop\\Clinic Project\\ClinicSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ClinicMangmentSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj",
+        "projectUniqueName": "C:\\Users\\ALQasem\\OneDrive\\Desktop\\Clinic Project\\ClinicSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj",
         "projectName": "ClinicMangmentSystem",
-        "projectPath": "C:\\ClinicMangmentSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj",
-        "packagesPath": "C:\\Users\\Yossef\\.nuget\\packages\\",
-        "outputPath": "C:\\ClinicMangmentSystem\\ClinicMangmentSystem\\obj\\",
+        "projectPath": "C:\\Users\\ALQasem\\OneDrive\\Desktop\\Clinic Project\\ClinicSystem\\ClinicMangmentSystem\\ClinicMangmentSystem.csproj",
+        "packagesPath": "C:\\Users\\ALQasem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALQasem\\OneDrive\\Desktop\\Clinic Project\\ClinicSystem\\ClinicMangmentSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Yossef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALQasem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,23 +50,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -79,6 +76,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
